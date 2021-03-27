@@ -1,9 +1,9 @@
 [
     {
         "image": "assets/img/projects/project1.jpg",
-        "title": "My Title 01",
-        "description": "My Description 01",
-        "link": "#"
+        "title": "kaggle exercise-pipelines",
+        "description": "kaggle machine learning exercise",
+        "link": "https://www.kaggle.com/j1h00p/exercise-pipelines?scriptVersionId=54532990"
     },
     {
         "image": "assets/img/projects/project2.jpg",
