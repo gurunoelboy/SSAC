@@ -15,6 +15,12 @@
         "label": "Analytics",
         "link": "analytics.html",
         "tags": "users, charts, notifications, maps"
+      },
+      {
+        "name": "covid-analysis",
+        "label": "COVID19",
+        "link": "covid-analysis.html",
+        "tags": "users, charts, notifications, maps"
       }
     ]
   }
