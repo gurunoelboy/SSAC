@@ -1,5 +1,5 @@
 {
-    "name": "Park Jihoo",
+    "name": "Park JiHoo",
     "image": "assets/img/user/user.png",
     "email": "guruboy@snu.ac.kr",
     "phone": "+82 10 1234 4567",
@@ -7,7 +7,7 @@
     "resumes": [
         {
             "label": "RESUME",
-            "link": "https://swmaestro.org/sw/cmmn/file/fileDown.do?atchFileId=a269afb2417d46ff9a2167942b728001&fileSn=3"
+            "link": "assets/resume/my-resume.txt"
         },{
             "label": "PORTFOLIO",
             "link": "https://swmaestro.org/sw/cmmn/file/fileDown.do?atchFileId=a269afb2417d46ff9a2167942b728001&fileSn=3"
