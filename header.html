@@ -176,172 +176,57 @@ if ('rendererEvalAsync' in window) {
 	var was_TS = window.TS;
 	delete window.TS;
 	if (was_TS) window.TS = was_TS;
-});</script><title>my-profile.html | [202101]공공데이터를 활용한 빅데이터 처리 실무 with Python Slack</title><link href="https://a.slack-edge.com/18d2a8f/style/rollup-slack_kit_legacy_adapters.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/ba84b6e/style/rollup-plastic.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/00825c/style/libs/codemirror.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/6c689/style/codemirror_overrides.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/c844ab2/style/rollup-file_pages.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bv1-9/modern.vendor.3520ed5.min.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bv1-9/application.7c58df4.min.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/cf98d32/style/rollup-slack_kit_helpers.css" rel="stylesheet" id="slack_kit_helpers_stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/49a6f/style/print.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/7a9a78/style/libs/lato-2-compressed.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bf20e7/style/libs/notosanskr.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><meta name="robots" content="noindex, nofollow"><link id="favicon" rel="shortcut icon" href="https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png" sizes="16x16 32x32 48x48" type="image/png"></head><body class=""><script>var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-if (w > 1440) document.querySelector('body').classList.add('widescreen');</script><nav id="site_nav" class="no_transition"><div id="site_nav_contents"><div id="user_menu"><div id="user_menu_contents"><div id="user_menu_avatar"><span class="member_image thumb_48" style="background-image: url('https://secure.gravatar.com/avatar/811d993fa6458a4c9550b92d82dd3376.jpg?s=192&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-192.png')" data-thumb-size="48" data-member_id="U01JKKYEAD6"><ts-icon class="member_type_badge member_type_badge_16"><svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="badge_bg" fill="#FFFFFF"></g></g></svg><svg class="member_type_badge_icon" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"></g></svg></ts-icon></span><span class="member_image thumb_36" style="background-image: url('https://secure.gravatar.com/avatar/811d993fa6458a4c9550b92d82dd3376.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png')" data-thumb-size="36" data-member_id="U01JKKYEAD6"><ts-icon class="member_type_badge member_type_badge_16"><svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="badge_bg" fill="#FFFFFF"></g></g></svg><svg class="member_type_badge_icon" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"></g></svg></ts-icon></span></div><h3>다음으로 로그인</h3><span id="user_menu_name">박지후</span></div></div><div class="nav_contents"><ul class="primary_nav"><h3>계정</h3><li><a href="/messages" data-qa="app"><i class="ts_icon ts_icon_angle_arrow_up_left"></i>Slack으로 돌아가기</a></li><li><a href="/home" data-qa="home"><i class="ts_icon ts_icon_home"></i>홈</a></li><li><a href="/account" data-qa="account_profile"><i class="ts_icon ts_icon_user"></i>계정 및 프로필</a></li><li><a href="/apps/manage" data-qa="configure_apps" target="_blank" data-clog-event="APP_TEAM_SITE" data-clog-ui-element="link_app_directory" data-clog-ui-action="click" data-clog-ui-step="admin_menu"><i class="ts_icon ts_icon_plug"></i>앱 구성</a></li><li><a href="/stats" data-qa="statistics"><i class="ts_icon ts_icon_dashboard"></i>분석</a></li><li><a href="/customize" data-qa="customize"><i class="ts_icon ts_icon_magic"></i>맞춤화</a></li><li><a href="/account/workspace-settings" data-qa="team_settings"><i class="ts_icon ts_icon_info_circle sk_foreground_max"></i>이 워크스페이스 정보</a></li></ul></div><div id="footer"><h3>기타</h3><ul id="footer_nav"><li><a href="/is" data-qa="tour">둘러보기</a></li><li><a href="/downloads" data-qa="download_apps">앱 다운로드</a></li><li><a href="/brand-guidelines" data-qa="brand_guidelines">브랜드 지침</a></li><li><a href="/help/requests" data-qa="help">도움말</a></li><li><a href="https://api.slack.com" target="_blank" data-qa="api">API<i class="ts_icon ts_icon_external_link small_left_margin ts_icon_inherit"></i></a></li><li><a href="/pricing?ui_step=96&amp;ui_element=5" data-qa="pricing" data-clog-event="GROWTH_PRICING" data-clog-ui-element="pricing_link" data-clog-ui-action="click" data-clog-ui-step="admin_footer">가격 책정</a></li><li><a href="/help/requests/new" data-qa="contact">연락처</a></li><li><a href="/terms-of-service" data-qa="policies">정책</a></li><li><a href="https://slackhq.com/" target="_blank" data-qa="our_blog">블로그</a></li><li><a href="https://slack.com/signout/1613399862228?crumb=s-1616819929-7ec15b756b935b4d2e07e43ab601dd24539242cccf82e12e22132f609d39feaa-%E2%98%83" data-qa="sign_out">로그아웃<i class="ts_icon ts_icon_sign_out small_left_margin ts_icon_inherit"></i></a></li></ul><p id="footer_signature">Slack을 통해 <i class="ts_icon ts_icon_heart"></i>을(를) 생성함</p></div></div></nav><header><a id="menu_toggle" class="no_transition" data-qa="menu_toggle_hamburger"><span class="menu_icon"></span><span class="menu_label">메뉴</span><span class="vert_divider"></span></a><h1 id="header_team_name" class="inline_block no_transition" data-qa="header_team_name"><a href="/home"><i class="ts_icon ts_icon_home"></i>[202101]공공데이터를 활용한 빅데이터 처리 실무 with Python</a></h1><div class="header_nav"><div class="header_btns float_right"><a href="" onclick="return false;" id="plans_switcher" data-qa="plans_switcher"><i class="ts_icon ts_icon_rocket ts_icon_inherit"></i><span class="block label">플랜</span></a><ul id="header_plans_nav" data-qa="plans_switcher_menu"><li class="plans_switcher_item" data-plan="learn_more_standard"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_standard" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/pricing/standard?ui_element=53&amp;ui_step=222"><span class="switcher_label">스탠다드</span></a></li><li class="plans_switcher_item" data-plan="learn_more_plus"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_plus" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/pricing/plus?ui_element=54&amp;ui_step=222"><span class="switcher_label">플러스</span></a></li><li class="plans_switcher_item" data-plan="learn_more_enterprise"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_enterprise" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/enterprise?ui_element=55&amp;ui_step=222"><span class="switcher_label">엔터프라이즈</span></a></li><li class="plans_switcher_item" data-plan="compare_plans"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="pricing_link" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" data-qa="compare_plans_admin_nav_menu" href="https://slack.com/plans/compare?ui_element=5&amp;ui_step=222"><span class="switcher_label">플랜 비교</span></a></li></ul><a href="" onclick="return false;" id="team_switcher" data-qa="team_switcher"><i class="ts_icon ts_icon_th_large ts_icon_inherit"></i><span class="block label">워크스페이스</span></a><a href="/help/requests" id="help_link" data-qa="help_link"><i class="ts_icon ts_icon_life_ring ts_icon_inherit"></i><span class="block label">도움말</span></a><a href="https://202101withpython.slack.com/ssb/redirect?entry_point=admin" data-qa="launch"><img src="https://a.slack-edge.com/80588/img/icons/workspace_site_launch@2x.png" srcset="https://a.slack-edge.com/80588/img/icons/workspace_site_launch.png 1x, https://a.slack-edge.com/80588/img/icons/workspace_site_launch@2x.png 2x" title="Slack" alt="Launch Slack"><span class="block label">실행</span></a></div><ul id="header_team_nav" data-qa="team_switcher_menu"><li class="active"><a href="https://202101withpython.slack.com/home" target="https://202101withpython.slack.com/"><i class="ts_icon small ts_icon_check_circle_o active_icon s"></i><i class="team_icon small default"></i><span class="team_name active">[202101]공공데이터를 활용한 빅데이터 처리 실무 with Python</span></a></li><li id="add_team_option"><a href="https://slack.com/signin" target="_blank"><i class="ts_icon ts_icon_plus team_icon small"></i><span class="switcher_label">다른 워크스페이스에 로그인...</span></a></li></ul></div></header><div id="page" class=""><div id="page_contents" data-qa="page_contents" class=""><p class="print_only"><strong>
+});</script><title>header.html | [202101]공공데이터를 활용한 빅데이터 처리 실무 with Python Slack</title><link href="https://a.slack-edge.com/18d2a8f/style/rollup-slack_kit_legacy_adapters.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/ba84b6e/style/rollup-plastic.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/00825c/style/libs/codemirror.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/6c689/style/codemirror_overrides.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/c844ab2/style/rollup-file_pages.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bv1-9/modern.vendor.3520ed5.min.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bv1-9/application.7c58df4.min.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/cf98d32/style/rollup-slack_kit_helpers.css" rel="stylesheet" id="slack_kit_helpers_stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/49a6f/style/print.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/7a9a78/style/libs/lato-2-compressed.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><link href="https://a.slack-edge.com/bf20e7/style/libs/notosanskr.css" rel="stylesheet" type="text/css" onload="window._cdn ? _cdn.ok(this, arguments) : null" onerror="window._cdn ? _cdn.failed(this, arguments) : null" crossorigin="anonymous"><meta name="robots" content="noindex, nofollow"><link id="favicon" rel="shortcut icon" href="https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png" sizes="16x16 32x32 48x48" type="image/png"></head><body class=""><script>var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+if (w > 1440) document.querySelector('body').classList.add('widescreen');</script><nav id="site_nav" class="no_transition"><div id="site_nav_contents"><div id="user_menu"><div id="user_menu_contents"><div id="user_menu_avatar"><span class="member_image thumb_48" style="background-image: url('https://secure.gravatar.com/avatar/811d993fa6458a4c9550b92d82dd3376.jpg?s=192&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-192.png')" data-thumb-size="48" data-member_id="U01JKKYEAD6"><ts-icon class="member_type_badge member_type_badge_16"><svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="badge_bg" fill="#FFFFFF"></g></g></svg><svg class="member_type_badge_icon" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"></g></svg></ts-icon></span><span class="member_image thumb_36" style="background-image: url('https://secure.gravatar.com/avatar/811d993fa6458a4c9550b92d82dd3376.jpg?s=72&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png')" data-thumb-size="36" data-member_id="U01JKKYEAD6"><ts-icon class="member_type_badge member_type_badge_16"><svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="badge_bg" fill="#FFFFFF"></g></g></svg><svg class="member_type_badge_icon" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"></g></svg></ts-icon></span></div><h3>다음으로 로그인</h3><span id="user_menu_name">박지후</span></div></div><div class="nav_contents"><ul class="primary_nav"><h3>계정</h3><li><a href="/messages" data-qa="app"><i class="ts_icon ts_icon_angle_arrow_up_left"></i>Slack으로 돌아가기</a></li><li><a href="/home" data-qa="home"><i class="ts_icon ts_icon_home"></i>홈</a></li><li><a href="/account" data-qa="account_profile"><i class="ts_icon ts_icon_user"></i>계정 및 프로필</a></li><li><a href="/apps/manage" data-qa="configure_apps" target="_blank" data-clog-event="APP_TEAM_SITE" data-clog-ui-element="link_app_directory" data-clog-ui-action="click" data-clog-ui-step="admin_menu"><i class="ts_icon ts_icon_plug"></i>앱 구성</a></li><li><a href="/stats" data-qa="statistics"><i class="ts_icon ts_icon_dashboard"></i>분석</a></li><li><a href="/customize" data-qa="customize"><i class="ts_icon ts_icon_magic"></i>맞춤화</a></li><li><a href="/account/workspace-settings" data-qa="team_settings"><i class="ts_icon ts_icon_info_circle sk_foreground_max"></i>이 워크스페이스 정보</a></li></ul></div><div id="footer"><h3>기타</h3><ul id="footer_nav"><li><a href="/is" data-qa="tour">둘러보기</a></li><li><a href="/downloads" data-qa="download_apps">앱 다운로드</a></li><li><a href="/brand-guidelines" data-qa="brand_guidelines">브랜드 지침</a></li><li><a href="/help/requests" data-qa="help">도움말</a></li><li><a href="https://api.slack.com" target="_blank" data-qa="api">API<i class="ts_icon ts_icon_external_link small_left_margin ts_icon_inherit"></i></a></li><li><a href="/pricing?ui_step=96&amp;ui_element=5" data-qa="pricing" data-clog-event="GROWTH_PRICING" data-clog-ui-element="pricing_link" data-clog-ui-action="click" data-clog-ui-step="admin_footer">가격 책정</a></li><li><a href="/help/requests/new" data-qa="contact">연락처</a></li><li><a href="/terms-of-service" data-qa="policies">정책</a></li><li><a href="https://slackhq.com/" target="_blank" data-qa="our_blog">블로그</a></li><li><a href="https://slack.com/signout/1613399862228?crumb=s-1616819941-0638ca3a00dfffda75ccb6b192eb79564e0c008b85c400dff3052017c3ed3824-%E2%98%83" data-qa="sign_out">로그아웃<i class="ts_icon ts_icon_sign_out small_left_margin ts_icon_inherit"></i></a></li></ul><p id="footer_signature">Slack을 통해 <i class="ts_icon ts_icon_heart"></i>을(를) 생성함</p></div></div></nav><header><a id="menu_toggle" class="no_transition" data-qa="menu_toggle_hamburger"><span class="menu_icon"></span><span class="menu_label">메뉴</span><span class="vert_divider"></span></a><h1 id="header_team_name" class="inline_block no_transition" data-qa="header_team_name"><a href="/home"><i class="ts_icon ts_icon_home"></i>[202101]공공데이터를 활용한 빅데이터 처리 실무 with Python</a></h1><div class="header_nav"><div class="header_btns float_right"><a href="" onclick="return false;" id="plans_switcher" data-qa="plans_switcher"><i class="ts_icon ts_icon_rocket ts_icon_inherit"></i><span class="block label">플랜</span></a><ul id="header_plans_nav" data-qa="plans_switcher_menu"><li class="plans_switcher_item" data-plan="learn_more_standard"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_standard" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/pricing/standard?ui_element=53&amp;ui_step=222"><span class="switcher_label">스탠다드</span></a></li><li class="plans_switcher_item" data-plan="learn_more_plus"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_plus" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/pricing/plus?ui_element=54&amp;ui_step=222"><span class="switcher_label">플러스</span></a></li><li class="plans_switcher_item" data-plan="learn_more_enterprise"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="learn_more_enterprise" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" href="https://slack.com/enterprise?ui_element=55&amp;ui_step=222"><span class="switcher_label">엔터프라이즈</span></a></li><li class="plans_switcher_item" data-plan="compare_plans"><a data-clog-event="UPGRDEXP_PLANS_IN_TEAM_NAV" data-clog-ui-element="pricing_link" data-clog-ui-action="click" data-clog-ui-step="TEAM_NAV_PLANS_MENU" data-qa="compare_plans_admin_nav_menu" href="https://slack.com/plans/compare?ui_element=5&amp;ui_step=222"><span class="switcher_label">플랜 비교</span></a></li></ul><a href="" onclick="return false;" id="team_switcher" data-qa="team_switcher"><i class="ts_icon ts_icon_th_large ts_icon_inherit"></i><span class="block label">워크스페이스</span></a><a href="/help/requests" id="help_link" data-qa="help_link"><i class="ts_icon ts_icon_life_ring ts_icon_inherit"></i><span class="block label">도움말</span></a><a href="https://202101withpython.slack.com/ssb/redirect?entry_point=admin" data-qa="launch"><img src="https://a.slack-edge.com/80588/img/icons/workspace_site_launch@2x.png" srcset="https://a.slack-edge.com/80588/img/icons/workspace_site_launch.png 1x, https://a.slack-edge.com/80588/img/icons/workspace_site_launch@2x.png 2x" title="Slack" alt="Launch Slack"><span class="block label">실행</span></a></div><ul id="header_team_nav" data-qa="team_switcher_menu"><li class="active"><a href="https://202101withpython.slack.com/home" target="https://202101withpython.slack.com/"><i class="ts_icon small ts_icon_check_circle_o active_icon s"></i><i class="team_icon small default"></i><span class="team_name active">[202101]공공데이터를 활용한 빅데이터 처리 실무 with Python</span></a></li><li id="add_team_option"><a href="https://slack.com/signin" target="_blank"><i class="ts_icon ts_icon_plus team_icon small"></i><span class="switcher_label">다른 워크스페이스에 로그인...</span></a></li></ul></div></header><div id="page" class=""><div id="page_contents" data-qa="page_contents" class=""><p class="print_only"><strong>
 	comeduschool 님이 2021년 3월 27일 토요일, 오후 1:34에 생성함
-	</strong><br><span class="subtle_silver break_word">https://202101withpython.slack.com/files/U01JK29TWAU/F01SM17FMJ7/my-profile.html</span></p><div class="file_header_container no_print"></div><div class="alert_container"><div class="file_public_link_shared alert" style="display: none;"><i class="ts_icon ts_icon_link"></i>공개 링크: <a class="file_public_link" href="https://slack-files.com/T01J1BRRC6Q-F01SM17FMJ7-a805c257b3" target="new">https://slack-files.com/T01J1BRRC6Q-F01SM17FMJ7-a805c257b3</a></div></div><div id="file_page" class="card top_padding"><p class="small subtle_silver no_print meta">
-		8KB HTML 코드조각이 <span class="date">2021년 3월 27일</span>에 생성됨
-		<span class="file_share_list"></span></p><a id="file_action_cog" class="action_cog action_cog_snippet float_right no_print"><span>작업</span><i class="ts_icon ts_icon_cog"></i></a><a id="snippet_expand_toggle" class="float_right no_print"><i class="ts_icon ts_icon_expand "></i><i class="ts_icon ts_icon_compress hidden"></i></a><div class="large_bottom_margin clearfix"><pre id="file_contents">---
-layout: default
-title: &quot;My Profile - Dashboard Template&quot;
+	</strong><br><span class="subtle_silver break_word">https://202101withpython.slack.com/files/U01JK29TWAU/F01SHN28R3P/header.html</span></p><div class="file_header_container no_print"></div><div class="alert_container"><div class="file_public_link_shared alert" style="display: none;"><i class="ts_icon ts_icon_link"></i>공개 링크: <a class="file_public_link" href="https://slack-files.com/T01J1BRRC6Q-F01SHN28R3P-ce86b75c15" target="new">https://slack-files.com/T01J1BRRC6Q-F01SHN28R3P-ce86b75c15</a></div></div><div id="file_page" class="card top_padding"><p class="small subtle_silver no_print meta">
+		2KB HTML 코드조각이 <span class="date">2021년 3월 27일</span>에 생성됨
+		<span class="file_share_list"></span></p><a id="file_action_cog" class="action_cog action_cog_snippet float_right no_print"><span>작업</span><i class="ts_icon ts_icon_cog"></i></a><a id="snippet_expand_toggle" class="float_right no_print"><i class="ts_icon ts_icon_expand "></i><i class="ts_icon ts_icon_compress hidden"></i></a><div class="large_bottom_margin clearfix"><pre id="file_contents">&lt;!-- Header --&gt;
+&lt;header class=&quot;main-header &quot; id=&quot;header&quot;&gt;
+  &lt;nav class=&quot;navbar navbar-static-top navbar-expand-lg&quot;&gt;
+    &lt;!-- search form --&gt;
+    &lt;div class=&quot;search-form d-none d-lg-inline-block&quot;&gt;
+      &lt;div class=&quot;input-group&quot;&gt;
+        &lt;input type=&quot;text&quot; class=&quot;form-control disabled&quot; autocomplete=&quot;off&quot; disabled /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;navbar-right &quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;!-- User Account --&gt;
+        &lt;li class=&quot;dropdown user-menu&quot;&gt;
+          &lt;button href=&quot;#&quot; class=&quot;dropdown-toggle nav-link&quot; data-toggle=&quot;dropdown&quot;&gt;
+            &lt;img src=&quot;{{site.data.profile.image}}&quot; class=&quot;user-image&quot; alt=&quot;User Image&quot; /&gt;
+            &lt;span class=&quot;d-none d-lg-inline-block&quot;&gt;{{site.data.profile.name}}&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;ul class=&quot;dropdown-menu dropdown-menu-right&quot;&gt;
+            &lt;!-- User image --&gt;
+            &lt;li class=&quot;dropdown-header&quot;&gt;
+              &lt;img src=&quot;{{site.data.profile.image}}&quot; class=&quot;img-circle&quot; alt=&quot;User Image&quot; /&gt;
+              &lt;div class=&quot;d-inline-block&quot;&gt;
+                Comedu School &lt;small class=&quot;pt-1&quot;&gt;{{site.data.profile.email}}&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
 
-parent: &quot;my-profile&quot;
-sub_parent: &quot;&quot;
-activePage: &quot;my-profile&quot;
-plugins: [date_range_picker]
----
-&lt;div class=&quot;bg-white border rounded&quot;&gt;
-  &lt;div class=&quot;row no-gutters&quot;&gt;
-    &lt;div class=&quot;col-lg-4 col-xl-3&quot;&gt;
-      &lt;div class=&quot;profile-content-left profile-left-spacing pt-5 pb-3 px-3 px-xl-5&quot;&gt;
-        &lt;div class=&quot;card text-center widget-profile px-0 my-3 border-0&quot;&gt;
-          &lt;div class=&quot;card-img mx-auto rounded-circle&quot;&gt;
-            &lt;img class=&quot;w-100&quot; src=&quot;{{site.data.profile.image}}&quot; alt=&quot;user image&quot;&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-body&quot;&gt;
-            &lt;h4 class=&quot;py-2 text-dark&quot;&gt;{{site.data.profile.name}}&lt;/h4&gt;
-            &lt;p&gt;{{site.data.profile.email}}&lt;/p&gt;
-            &lt;p&gt;&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;btn-group w-100&quot; role=&quot;group&quot; aria-label=&quot;resume&quot;&gt;
-            {% for resume in site.data.profile.resumes %}
-              {% if resume.link != '' %}
-                &lt;a href=&quot;{{resume.link}}&quot; target=&quot;_blank&quot; class=&quot;btn btn-success&quot;&gt;{{resume.label}}&lt;/a&gt;
-              {% endif %}
-            {% endfor %}
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;d-flex justify-content-between &quot;&gt;
-          &lt;div class=&quot;text-center pb-4&quot;&gt;
-            &lt;h6 class=&quot;text-dark pb-2&quot;&gt;1503&lt;/h6&gt;
-            &lt;p&gt;Friends&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;text-center pb-4&quot;&gt;
-            &lt;h6 class=&quot;text-dark pb-2&quot;&gt;2905&lt;/h6&gt;
-            &lt;p&gt;Followers&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;text-center pb-4&quot;&gt;
-            &lt;h6 class=&quot;text-dark pb-2&quot;&gt;1200&lt;/h6&gt;
-            &lt;p&gt;Following&lt;/p&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;hr class=&quot;w-100&quot;&gt;
-        &lt;div class=&quot;contact-info pt-4&quot;&gt;
-          &lt;h5 class=&quot;text-dark mb-1&quot;&gt;Contact Information&lt;/h5&gt;
-          &lt;p class=&quot;text-dark font-weight-medium pt-4 mb-2&quot;&gt;Email address&lt;/p&gt;
-          &lt;p&gt;{{site.data.profile.email}}&lt;/p&gt;
-          &lt;p class=&quot;text-dark font-weight-medium pt-4 mb-2&quot;&gt;Phone Number&lt;/p&gt;
-          &lt;p&gt;{{site.data.profile.phone}}&lt;/p&gt;
-          &lt;p class=&quot;text-dark font-weight-medium pt-4 mb-2&quot;&gt;Birthday&lt;/p&gt;
-          &lt;p&gt;{{site.data.profile.birth}}&lt;/p&gt;
-          &lt;p class=&quot;text-dark font-weight-medium pt-4 mb-2&quot;&gt;Social Profile&lt;/p&gt;
-          &lt;p class=&quot;pb-3 social-button&quot;&gt;
-            {% for social in site.data.profile.socials %}
-              {% if social.link != &quot;&quot; %}
-                &lt;a href=&quot;{{social.link}}&quot; class=&quot;mb-1 btn btn-outline {{social.class}} rounded-circle&quot;&gt;
-                  &lt;i class=&quot;mdi {{social.icon}}&quot;&gt;&lt;/i&gt;
-                &lt;/a&gt;
-              {% endif %}
-            {% endfor %}
-          &lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;my-profile.html&quot;&gt;
+                &lt;i class=&quot;mdi mdi-account&quot;&gt;&lt;/i&gt; My Profile
+              &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;my-contact.html&quot;&gt;
+                &lt;i class=&quot;mdi mdi-email&quot;&gt;&lt;/i&gt; Contact
+              &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;my-projects.html&quot;&gt; &lt;i class=&quot;mdi mdi-diamond-stone&quot;&gt;&lt;/i&gt; Projects &lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;col-lg-8 col-xl-9&quot;&gt;
-      &lt;div class=&quot;profile-content-right profile-right-spacing py-5&quot;&gt;
-        &lt;ul class=&quot;nav nav-tabs px-3 px-xl-5 nav-style-border&quot; id=&quot;myTab&quot; role=&quot;tablist&quot;&gt;
-          &lt;li class=&quot;nav-item&quot;&gt;
-            &lt;a class=&quot;nav-link active&quot; id=&quot;projects-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#projects&quot; role=&quot;tab&quot; aria-controls=&quot;projects&quot; aria-selected=&quot;true&quot;&gt;Projects&lt;/a&gt;
-          &lt;/li&gt;
-          &lt;li class=&quot;nav-item&quot;&gt;
-            &lt;a class=&quot;nav-link&quot; id=&quot;contact-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#contact&quot; role=&quot;tab&quot; aria-controls=&quot;contact&quot; aria-selected=&quot;false&quot;&gt;Contact&lt;/a&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;div class=&quot;tab-content px-3 px-xl-5&quot; id=&quot;myTabContent&quot;&gt;
-          &lt;div class=&quot;tab-pane fade show active&quot; id=&quot;projects&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;projects-tab&quot;&gt;
-            &lt;div class=&quot;card-body&quot;&gt;
-              &lt;div class=&quot;row&quot;&gt;
-                {% for project in site.data.projects %}
-                  &lt;div class=&quot;col-md-6 col-xl-4&quot;&gt;
-                    &lt;div class=&quot;card mb-4&quot;&gt;
-                      &lt;div class=&quot;card-body&quot;&gt;
-                        &lt;img class=&quot;card-img-top mb-4 rounded&quot; src=&quot;{{project.image}}&quot;&gt;
-                        &lt;h5 class=&quot;card-title text-primary&quot;&gt;{{project.title}}&lt;/h5&gt;
-                        &lt;p class=&quot;card-text pb-3&quot;&gt;{{project.description}}&lt;/p&gt;
-                        &lt;a href=&quot;{{project.link}}&quot; class=&quot;btn btn-outline-primary&quot;&gt;Go somewhere&lt;/a&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                {% endfor %}
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;tab-pane fade show&quot; id=&quot;contact&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;contact-tab&quot;&gt;
-            &lt;form id=&quot;contact-form&quot; method=&quot;post&quot; role=&quot;form&quot;&gt;
-              &lt;div class=&quot;messages&quot;&gt;&lt;/div&gt;
-              &lt;div class=&quot;controls&quot;&gt;
-                &lt;div class=&quot;row my-5&quot;&gt;
-                  &lt;div class=&quot;col-md-6&quot;&gt;
-                    &lt;div class=&quot;form-group&quot;&gt;
-                      &lt;label for=&quot;form_name&quot;&gt;Firstname *&lt;/label&gt;
-                      &lt;input id=&quot;form_name&quot; type=&quot;text&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Please enter your firstname *&quot; required=&quot;required&quot; data-error=&quot;Firstname is required.&quot;&gt;
-                      &lt;div class=&quot;help-block with-errors&quot;&gt;&lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&quot;col-md-6&quot;&gt;
-                    &lt;div class=&quot;form-group&quot;&gt;
-                      &lt;label for=&quot;form_lastname&quot;&gt;Lastname *&lt;/label&gt;
-                      &lt;input id=&quot;form_lastname&quot; type=&quot;text&quot; name=&quot;surname&quot; class=&quot;form-control&quot; placeholder=&quot;Please enter your lastname *&quot; required=&quot;required&quot; data-error=&quot;Lastname is required.&quot;&gt;
-                      &lt;div class=&quot;help-block with-errors&quot;&gt;&lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;row&quot;&gt;
-                    &lt;div class=&quot;col-md-6&quot;&gt;
-                      &lt;div class=&quot;form-group&quot;&gt;
-                        &lt;label for=&quot;form_email&quot;&gt;Email *&lt;/label&gt;
-                        &lt;input id=&quot;form_email&quot; type=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Please enter your email *&quot; required=&quot;required&quot; data-error=&quot;Valid email is required.&quot;&gt;
-                        &lt;div class=&quot;help-block with-errors&quot;&gt;&lt;/div&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;col-md-6&quot;&gt;
-                      &lt;div class=&quot;form-group&quot;&gt;
-                        &lt;label for=&quot;form_need&quot;&gt;Please specify your need *&lt;/label&gt;
-                        &lt;select id=&quot;form_need&quot; name=&quot;need&quot; class=&quot;form-control&quot; required=&quot;required&quot; data-error=&quot;Please specify your need.&quot;&gt;
-                          &lt;option value=&quot;&quot;&gt;&lt;/option&gt;
-                          &lt;option value=&quot;Request quotation&quot;&gt;Request quotation&lt;/option&gt;
-                          &lt;option value=&quot;Other&quot;&gt;Other&lt;/option&gt;
-                        &lt;/select&gt;
-                        &lt;div class=&quot;help-block with-errors&quot;&gt;&lt;/div&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;row&quot;&gt;
-                  &lt;div class=&quot;col-md-12&quot;&gt;
-                    &lt;div class=&quot;form-group&quot;&gt;
-                      &lt;label for=&quot;form_message&quot;&gt;Message *&lt;/label&gt;
-                      &lt;textarea id=&quot;form_message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Message for me *&amp;#13;&amp;#10;Use formspree: https://formspree.io&quot; rows=&quot;8&quot; required=&quot;required&quot; data-error=&quot;Please, leave us a message.&quot;&gt;&lt;/textarea&gt;
-                      &lt;div class=&quot;help-block with-errors&quot;&gt;&lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&quot;col-md-12&quot;&gt;
-                    &lt;input type=&quot;submit&quot; class=&quot;btn btn-success btn-send&quot; value=&quot;Send message&quot;&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;row&quot;&gt;
-                  &lt;div class=&quot;col-md-12&quot;&gt;
-                    &lt;p class=&quot;text-muted&quot;&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/form&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </pre><p class="file_page_meta no_print" style="line-height: 1.5rem;"><label class="checkbox normal mini float_right no_top_padding no_min_width"><input type="checkbox" id="file_preview_wrap_cb">긴 라인 줄 바꿈</label></p></div></div></div><div id="overlay"></div></div><script type="text/javascript">
+  &lt;/nav&gt;
+&lt;/header&gt;
+</pre><p class="file_page_meta no_print" style="line-height: 1.5rem;"><label class="checkbox normal mini float_right no_top_padding no_min_width"><input type="checkbox" id="file_preview_wrap_cb">긴 라인 줄 바꿈</label></p></div></div></div><div id="overlay"></div></div><script type="text/javascript">
 /**
  * A placeholder function that the build script uses to
  * replace file paths with their CDN versions.
@@ -369,7 +254,7 @@ var inc_js_setup_data = {
 <!--
 	boot_data.page_needs_custom_emoji = true;
 
-	boot_data.file = {"id":"F01SM17FMJ7","created":1616819682,"timestamp":1616819682,"name":"my-profile.html","title":"my-profile.html","mimetype":"text\/plain","filetype":"html","pretty_type":"HTML","user":"U01JK29TWAU","editable":true,"size":7773,"mode":"snippet","is_external":false,"external_type":"","is_public":true,"public_url_shared":false,"display_as_bot":false,"username":"","url_private":"https:\/\/files.slack.com\/files-pri\/T01J1BRRC6Q-F01SM17FMJ7\/my-profile.html","url_private_download":"https:\/\/files.slack.com\/files-pri\/T01J1BRRC6Q-F01SM17FMJ7\/download\/my-profile.html","permalink":"https:\/\/202101withpython.slack.com\/files\/U01JK29TWAU\/F01SM17FMJ7\/my-profile.html","permalink_public":"https:\/\/slack-files.com\/T01J1BRRC6Q-F01SM17FMJ7-a805c257b3","edit_link":"https:\/\/202101withpython.slack.com\/files\/U01JK29TWAU\/F01SM17FMJ7\/my-profile.html\/edit","preview":"---\r\nlayout: default\r\ntitle: \"My Profile - Dashboard Template\"\r\n\r\nparent: \"my-profile\"\r","preview_highlight":"\u003Cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\"\u003E\n\u003Cdiv class=\"CodeMirror-code\"\u003E\n\u003Cdiv\u003E\u003Cpre\u003E---\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003Elayout: default\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003Etitle: &quot;My Profile - Dashboard Template&quot;\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003E&#8203;\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003Eparent: &quot;my-profile&quot;\u003C\/pre\u003E\u003C\/div\u003E\n\u003C\/div\u003E\n\u003C\/div\u003E\n","lines":161,"lines_more":156,"preview_is_truncated":true,"comments_count":0,"is_starred":false,"shares":{"public":{"C01HNDHP0BY":[{"reply_users":[],"reply_users_count":0,"reply_count":0,"ts":"1616819700.000500","channel_name":"tutorial","team_id":"T01J1BRRC6Q","share_user_id":"U01JK29TWAU"}]}},"channels":["C01HNDHP0BY"],"groups":[],"ims":[],"has_rich_preview":false};
+	boot_data.file = {"id":"F01SHN28R3P","created":1616819689,"timestamp":1616819689,"name":"header.html","title":"header.html","mimetype":"text\/plain","filetype":"html","pretty_type":"HTML","user":"U01JK29TWAU","editable":true,"size":1695,"mode":"snippet","is_external":false,"external_type":"","is_public":true,"public_url_shared":false,"display_as_bot":false,"username":"","url_private":"https:\/\/files.slack.com\/files-pri\/T01J1BRRC6Q-F01SHN28R3P\/header.html","url_private_download":"https:\/\/files.slack.com\/files-pri\/T01J1BRRC6Q-F01SHN28R3P\/download\/header.html","permalink":"https:\/\/202101withpython.slack.com\/files\/U01JK29TWAU\/F01SHN28R3P\/header.html","permalink_public":"https:\/\/slack-files.com\/T01J1BRRC6Q-F01SHN28R3P-ce86b75c15","edit_link":"https:\/\/202101withpython.slack.com\/files\/U01JK29TWAU\/F01SHN28R3P\/header.html\/edit","preview":"\u003C!-- Header --\u003E\r\n\u003Cheader class=\"main-header \" id=\"header\"\u003E\r\n  \u003Cnav class=\"navbar navbar-static-top navbar-expand-lg\"\u003E\r\n    \u003C!-- search form --\u003E\r\n    \u003Cdiv class=\"search-form d-none d-lg-inline-block\"\u003E\r","preview_highlight":"\u003Cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\"\u003E\n\u003Cdiv class=\"CodeMirror-code\"\u003E\n\u003Cdiv\u003E\u003Cpre\u003E\u003Cspan class=\"cm-comment\"\u003E&lt;!-- Header --&gt;\u003C\/span\u003E\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003E\u003Cspan class=\"cm-tag cm-bracket\"\u003E&lt;\u003C\/span\u003E\u003Cspan class=\"cm-tag\"\u003Eheader\u003C\/span\u003E \u003Cspan class=\"cm-attribute\"\u003Eclass\u003C\/span\u003E=\u003Cspan class=\"cm-string\"\u003E&quot;main-header &quot;\u003C\/span\u003E \u003Cspan class=\"cm-attribute\"\u003Eid\u003C\/span\u003E=\u003Cspan class=\"cm-string\"\u003E&quot;header&quot;\u003C\/span\u003E\u003Cspan class=\"cm-tag cm-bracket\"\u003E&gt;\u003C\/span\u003E\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003E  \u003Cspan class=\"cm-tag cm-bracket\"\u003E&lt;\u003C\/span\u003E\u003Cspan class=\"cm-tag\"\u003Enav\u003C\/span\u003E \u003Cspan class=\"cm-attribute\"\u003Eclass\u003C\/span\u003E=\u003Cspan class=\"cm-string\"\u003E&quot;navbar navbar-static-top navbar-expand-lg&quot;\u003C\/span\u003E\u003Cspan class=\"cm-tag cm-bracket\"\u003E&gt;\u003C\/span\u003E\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003E    \u003Cspan class=\"cm-comment\"\u003E&lt;!-- search form --&gt;\u003C\/span\u003E\u003C\/pre\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cpre\u003E    \u003Cspan class=\"cm-tag cm-bracket\"\u003E&lt;\u003C\/span\u003E\u003Cspan class=\"cm-tag\"\u003Ediv\u003C\/span\u003E \u003Cspan class=\"cm-attribute\"\u003Eclass\u003C\/span\u003E=\u003Cspan class=\"cm-string\"\u003E&quot;search-form d-none d-lg-inline-block&quot;\u003C\/span\u003E\u003Cspan class=\"cm-tag cm-bracket\"\u003E&gt;\u003C\/span\u003E\u003C\/pre\u003E\u003C\/div\u003E\n\u003C\/div\u003E\n\u003C\/div\u003E\n","lines":46,"lines_more":41,"preview_is_truncated":true,"comments_count":0,"is_starred":false,"shares":{"public":{"C01HNDHP0BY":[{"reply_users":[],"reply_users_count":0,"reply_count":0,"ts":"1616819700.000500","channel_name":"tutorial","team_id":"T01J1BRRC6Q","share_user_id":"U01JK29TWAU"}]}},"channels":["C01HNDHP0BY"],"groups":[],"ims":[],"has_rich_preview":false};
 	boot_data.file.comments = {};
 
 	var g_editor;
@@ -439,6 +324,6 @@ var inc_js_setup_data = {
 //-->
 </script><style>.color_9f69e7:not(.nuc) {color:#9F69E7;}.color_4bbe2e:not(.nuc) {color:#4BBE2E;}.color_e7392d:not(.nuc) {color:#E7392D;}.color_3c989f:not(.nuc) {color:#3C989F;}.color_674b1b:not(.nuc) {color:#674B1B;}.color_e96699:not(.nuc) {color:#E96699;}.color_e0a729:not(.nuc) {color:#E0A729;}.color_684b6c:not(.nuc) {color:#684B6C;}.color_5b89d5:not(.nuc) {color:#5B89D5;}.color_2b6836:not(.nuc) {color:#2B6836;}.color_99a949:not(.nuc) {color:#99A949;}.color_df3dc0:not(.nuc) {color:#DF3DC0;}.color_4cc091:not(.nuc) {color:#4CC091;}.color_9b3b45:not(.nuc) {color:#9B3B45;}.color_d58247:not(.nuc) {color:#D58247;}.color_bb86b7:not(.nuc) {color:#BB86B7;}.color_5a4592:not(.nuc) {color:#5A4592;}.color_db3150:not(.nuc) {color:#DB3150;}.color_235e5b:not(.nuc) {color:#235E5B;}.color_9e3997:not(.nuc) {color:#9E3997;}.color_53b759:not(.nuc) {color:#53B759;}.color_c386df:not(.nuc) {color:#C386DF;}.color_385a86:not(.nuc) {color:#385A86;}.color_a63024:not(.nuc) {color:#A63024;}.color_5870dd:not(.nuc) {color:#5870DD;}.color_ea2977:not(.nuc) {color:#EA2977;}.color_50a0cf:not(.nuc) {color:#50A0CF;}.color_d55aef:not(.nuc) {color:#D55AEF;}.color_d1707d:not(.nuc) {color:#D1707D;}.color_43761b:not(.nuc) {color:#43761B;}.color_e06b56:not(.nuc) {color:#E06B56;}.color_8f4a2b:not(.nuc) {color:#8F4A2B;}.color_902d59:not(.nuc) {color:#902D59;}.color_de5f24:not(.nuc) {color:#DE5F24;}.color_a2a5dc:not(.nuc) {color:#A2A5DC;}.color_827327:not(.nuc) {color:#827327;}.color_3c8c69:not(.nuc) {color:#3C8C69;}.color_8d4b84:not(.nuc) {color:#8D4B84;}.color_84b22f:not(.nuc) {color:#84B22F;}.color_4ec0d6:not(.nuc) {color:#4EC0D6;}.color_e23f99:not(.nuc) {color:#E23F99;}.color_e475df:not(.nuc) {color:#E475DF;}.color_619a4f:not(.nuc) {color:#619A4F;}.color_a72f79:not(.nuc) {color:#A72F79;}.color_7d414c:not(.nuc) {color:#7D414C;}.color_aba727:not(.nuc) {color:#ABA727;}.color_965d1b:not(.nuc) {color:#965D1B;}.color_4d5e26:not(.nuc) {color:#4D5E26;}.color_dd8527:not(.nuc) {color:#DD8527;}.color_bd9336:not(.nuc) {color:#BD9336;}.color_e85d72:not(.nuc) {color:#E85D72;}.color_dc7dbb:not(.nuc) {color:#DC7DBB;}.color_bc3663:not(.nuc) {color:#BC3663;}.color_9d8eee:not(.nuc) {color:#9D8EEE;}.color_8469bc:not(.nuc) {color:#8469BC;}.color_73769d:not(.nuc) {color:#73769D;}.color_b14cbc:not(.nuc) {color:#B14CBC;}</style>
 
-<!-- slack-www-hhvm-main-iad-htk9/ 2021-03-26 21:38:49/ v7d7fab6f8464ad7872a7aa20f15eb9a9c5d90882/ B:H -->
+<!-- slack-www-hhvm-main-iad-1pg9/ 2021-03-26 21:39:01/ v7d7fab6f8464ad7872a7aa20f15eb9a9c5d90882/ B:H -->
 
 </body></html>
